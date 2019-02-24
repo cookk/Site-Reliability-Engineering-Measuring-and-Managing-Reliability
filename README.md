@@ -41,7 +41,7 @@
   -  It's common to set a target for the median user and for the long tail to make sure that it doesn't get too long.
 ## How reliable shoud a service be? Setting targets for reliability. Iterate!
 - 100% is the wrong target
->"100% is the wrong reliability target for basically everything."  - Ben Treynor, Google, LLC
+> "100% is the wrong reliability target for basically everything."  - Ben Treynor, Google, LLC
   - Higher availability costs you more to provide, reducing your ability to make changes and release new features.
   - If you want to improve reliability, sooner or later, you're going to need to slow down changes by having things like increased testing, less frequent releases and more manual analysis.
 - Iterating
