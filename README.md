@@ -17,3 +17,5 @@
   - The test states that services need target SLOs that capture the performance and availability levels that if barely met would keep a typical customer happy.
   - The challenge is quantifying and measuring the happiness of your customers since you can't do this directly.
   - You have to be able to make sure you're thinking about all groups of your customers.
+## How do we measure reliability? Edge cases.
+- 
