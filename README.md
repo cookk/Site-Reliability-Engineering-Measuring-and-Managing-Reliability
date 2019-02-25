@@ -1,4 +1,3 @@
-# Site-Reliability-Engineering-Measuring-and-Managing-Reliability
 ## About this course
 ## What is SRE? How does it differ from DevOps?
 ## Who are CREs? How they can help you be more reliable?
@@ -108,3 +107,14 @@
   - **Error budgets are your primary basis of communication.**
   - **SLOs are not set in stone forever.**
   - **The team relationship has to be strong to make this work.**
+## Introduction: Choosing a Good SLI
+- Learn how to...
+  - Choose the right metric.
+  - Measure your SLIs.
+  - Choose an SLI specification.
+  - Refine an SLI implementation.
+  - Reduce SLI complexity.
+  - Set SLO targets.
+## Metrics and Measurement
+- User happiness in metric form
+  - Ideally, you wanted to define SLIs that have a predictable, mostly linear relationship with happiness of your users.
