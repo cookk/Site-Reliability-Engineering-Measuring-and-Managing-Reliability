@@ -118,3 +118,15 @@
 ## Metrics and Measurement
 - User happiness in metric form
   - Ideally, you wanted to define SLIs that have a predictable, mostly linear relationship with happiness of your users.
+- The properties of good SLI metrics
+  - (X) System metrics(load average, CPU utilization, memory usage, bandwidth ..)
+    - Users don't directly see your CPUs pegged at 100 percent.
+    - They see your service responding slowly.
+  - (X) Internal state(thread pool fullness, request queue length ..)
+    - The data is noisy, and there are many reasons why large changes could occur.
+  - (V) Has predictable relationship with user haapiness.
+  - (V) Shows service is working as users expect it to.
+  - (V) Expressed as: (good events) / (valid events)
+  - (V) Aggregated over a long time horizon.
+    - We suggest that the SLI be aggregated over a reasonably long time window, to smooth out noise from the underlying data.
+    ![image1](https://github.com/cookk/Site-Reliability-Engineering-Measuring-and-Managing-Reliability/blob/master/the_properties_of_good_sli_metrics_1.PNG)
