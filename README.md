@@ -130,3 +130,7 @@
   - (V) Aggregated over a long time horizon.
     - We suggest that the SLI be aggregated over a reasonably long time window, to smooth out noise from the underlying data.
     ![image1](https://github.com/cookk/Site-Reliability-Engineering-Measuring-and-Managing-Reliability/blob/master/the_properties_of_good_sli_metrics_1.PNG)
+- Ways of measuring SLIs
+  - First up is deriving SLI metrics from processing server side request logs or data.
+    - Covering all the edge cases in a complex journey with a synthetic client, can be a huge engineering task.
+  - Measuring from the client's perspective also captures a lot of factors that are outside of your direct control, which can lower the signal to noise ratio of prospective SLIs.
