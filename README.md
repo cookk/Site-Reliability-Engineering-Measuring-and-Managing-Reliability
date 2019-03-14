@@ -134,3 +134,17 @@
   - First up is deriving SLI metrics from processing server side request logs or data.
     - Covering all the edge cases in a complex journey with a synthetic client, can be a huge engineering task.
   - Measuring from the client's perspective also captures a lot of factors that are outside of your direct control, which can lower the signal to noise ratio of prospective SLIs.
+## Commonly Used SLIs
+- The SLI menu
+  - Request/Response
+    - Availability
+    - Latency
+    - Quality
+  - Data Processing
+    - Coverage
+    - Correctness
+    - Freshness
+    - Throughput
+  - Storage
+    - Durability
+    
