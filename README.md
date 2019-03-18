@@ -147,4 +147,12 @@
     - Throughput
   - Storage
     - Durability
-    
+- The SLI equation
+  - SLI : (good events / valid events)
+    - SLIs fall between 0 and 100%
+      - 0% : nothing works
+      - 100% : nothing is broken
+    - Consistency makes building common tooling easier
+    - What makes an event valid?
+      - Sometimes you may need to completely exclude some events recorded by your underlying monitoring metrics from being included in your SLI, so they cannot consume your Error Budget.
+    - What makes an event good?
